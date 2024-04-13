@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="app">
+      <h1>Lista de Tareas</h1>
+      <input type="text" id="taskInput" placeholder="Agregar tarea" />
+      <button id="addTask" class="btn-add">
+        <i class="fas fa-plus"></i> Agregar tarea
+      </button>
+      <ul></ul>
+      <p class="empty" style="display: none">No hay tareas</p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
